@@ -10,26 +10,26 @@ The framework has following features
 
 ### steps to be followed
 
-Download the browser compatible ![chrome driver](https://chromedriver.chromium.org/downloads) and copy into src/main/resources/driver folder
-`mvn clean`
-`mvn dependency:resolve`
-`mvn test`
+1. Download the browser compatible ![chrome driver](https://chromedriver.chromium.org/downloads) and copy into src/main/resources/driver folder
+2. `mvn clean`
+3. `mvn dependency:resolve`
+4. `mvn test`
 
 ### Cucumber Report
 
-There is a feature overview page:
+Features Overview page:
 
 ![feature overview page](https://github.com/RajuMopidevi/TestAutomation/blob/4442477aaeaacfbb0aa3834fa822486fc8a1f827/src/test/resources/images/Cucumber_1.png)
 
-And there are also feature specific results pages:
+Features Tag Report:
 
 ![feature tag report](https://github.com/RajuMopidevi/TestAutomation/blob/4442477aaeaacfbb0aa3834fa822486fc8a1f827/src/test/resources/images/Cucumber_2.png)
 
-And useful information for failures:
+Feature Statistics:
 
 ![feature statistics](https://github.com/RajuMopidevi/TestAutomation/blob/4442477aaeaacfbb0aa3834fa822486fc8a1f827/src/test/resources/images/Cucumber_3.png)
 
-
+Steps:
 ![Steps](https://github.com/RajuMopidevi/TestAutomation/blob/4442477aaeaacfbb0aa3834fa822486fc8a1f827/src/test/resources/images/Cucumber_4.png)
 
 
